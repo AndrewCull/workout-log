@@ -1,3 +1,10 @@
+@import 'vars-typeplate';
+@import 'typeplate';
+
+
+
+
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
@@ -98,8 +105,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 4rem;
+}
 
+img {
+	max-width: 100%;
+	height: auto;
+}
 
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
 
 
 
