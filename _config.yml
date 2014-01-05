@@ -3,11 +3,13 @@ description: Workout Log
 author:
   name: Andrew
   email: andrew@surfintegrated.io
-  future: true
-  show_drafts: true
+future: true
+show_drafts: true
 
 # Markdown library
 markdown: rdiscount
 #   extensions: []
 
 pygments: true
+
+permalink: date
